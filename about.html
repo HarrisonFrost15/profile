@@ -6,20 +6,53 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>About</title>
         <Style>
-            
+            body
+            {
+                margin: 0;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+    
+            .topnav
+            {
+                overflow: hidden;
+                background-color: #333;
+            }
+    
+            .topnav a
+            {
+                float: left;
+                color: #f2f2f2;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+                font-size: 17px;
+            }
+    
+            .topnav a:hover
+            {
+                background-color: #ddd;
+                color: black;
+            }
+    
+            .topnav a.active
+            {
+                background-color: #04AA6D;
+                color: white;
+            }
         </Style>
     </head>
     <body>
         <!-- Navigation Bar -->
-        <Nav>
-            <span><a href="index.html">Home</a></span>
-            <span><a href="about.html">About</a></span>
-            <span><a href="portfolio.html">Portfolio</a></span>
-            <span><a href="contact.html">Contact</a></span>
-        </Nav>
-
+        <div class="topnav">
+            <a class="active" href="index.html">Home</a>
+            <a href="portfolio.html">Portfolio</a>
+            <a href="contact.html">Contact</a>
+            <a href="about.hrml">About</a>
+        </div>
         <!-- Title of the Page -->
-        <h1>About</h1>
-
+        <div style="padding-left:16px">
+            <h1>Harrison Frost</h1>
+            <p>Software Engineering Apprentice</p>
+        </div>
     </body>
 </html>
