@@ -1,58 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
+    
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         
+        <!-- Links the style sheet -->
+        <link rel="stylesheet" href="style.css">
+
         <!-- Tab title -->
         <title>CV</title>
-
-        <!-- Changes the look of the page -->
-        <Style>
-            /* Removes the margin for the navigation bar */
-            body
-            {
-                margin: 0;
-                font-family: Arial, Helvetica, sans-serif;
-            }
-            /* Background colour of the navigation bar */
-            .topnav
-            {
-                overflow: hidden;
-                background-color: #333;
-            }
-            
-            /* Font color and style */
-            .topnav a
-            {
-                float: left;
-                color: #f2f2f2;
-                text-align: center;
-                padding: 14px 16px;
-                text-decoration: none;
-                font-size: 17px;
-            }
-            
-            /* Shows what happens when you hover over a page */
-            .topnav a:hover
-            {
-                background-color: #ddd;
-                color: black;
-            }
-            
-            /* Shows what page you are on */
-            .topnav a.active
-            {
-                background-color: #04AA6D;
-                color: white;
-            }
-        </Style>
     </head>
 
     <body>
         <!-- Navigation Bar -->
-        <div class="topnav">
+        <div id="nav-bar" class="topnav">
             <a href="index.html">Home</a>
             <a href="about.html">About</a>
             <a class="active" href="cv.html">CV</a>
@@ -61,18 +24,18 @@
         </div>
         
         <!-- Contact Details -->
-        <div style="padding-left:16px;width:800px">
+        <div>
             <h1>Harrison Frost</h1>
         </div>
-
         <!-- Personal Profile -->
-        <div style="padding-left:16px;width:800px">
+        <div>
             <p>A college graduate with 5 years of experience in computing. Working as a team, I managed databases, inputted data to online portals and designed computer networks. I am now looking to develop these skills further and to pursue a career in the IT industry within the Leeds area.</p>
         </div>
 
+        <hr>
+
         <!-- Key Skills -->
-        <div style="padding-left:16px;width:800px">
-            <hr>
+        <div>
             <h3>KEY SKILLS</h3>
             <ul>
                 <li>I have developed excellent Communication Skills, relaying important information to staff at all levels as an Admin Assistant at Leeds City College for two weeks as work experience.</li>
@@ -82,9 +45,10 @@
             </ul>
         </div>
         
+        <hr>
+
         <!-- Work experience -->
-        <div style="padding-left:16px;width:800px">
-            <hr>
+        <div>
             <h3>RELEVANT WORK EXPERIENCE</h3>
             <ul>
                 <li>Responsible for updating databases, inputting data into Excel and Word and adding data to a European Online Portal</li>
@@ -93,44 +57,62 @@
                 <li>Learned how to take information from physical to digital databases</li>
             </ul>
         </div>
-
+        
+        <hr>
+        
         <!-- Education -->
-        <div style="padding-left:16px;width:800px">
-            <hr>
+        <div>
+            <!-- Section Title -->
             <h3>EDUCATION AND TRAINING</h3>
-            <span><strong>Spear (Personal and Career Development Programme)</strong></span>
-            <span> - September 2021 – October 2021</span>
-            <ul>
-                <li>Developed confident communication and interpersonal skills: delivered presentations, networked with professionals, and demonstrated effective teamwork</li>
-                <li>Implemented change based on feedback</li>
-                <li>Demonstrated reliability and organisational skills over the six-week programme</li>
-            </ul>
-            <span><strong>Leeds City College - Printworks Campus</strong></span>
-            <span> - September 2018 – June 2020</span>
-            <ul>
-                <li>GCSE English Language - 5</li>
-                <li>BTEC National Extended Certificate in Computing - Merit</li>
-                <li>BTEC National Diploma in Computing - Merit, Pass</li>
-            </ul>
-            <span><strong>Leeds West Academy</strong></span>
-            <span> - September 2013 – June 2018</span>
-            <p>GCSEs in</p>
-            <ul>
-                <li>Combined Science - 4, 3</li>
-                <li>Computer Science - 3</li>
-                <li>English Language - 2</li>
-                <li>English Literature - 2</li>
-                <li>Geography - 3</li>
-                <li>Information and Creative Technology - P3</li>
-                <li>Information & Cash in (Linear) - B</li>
-                <li>Mathematics - 4</li>
-                <li>IT User Skills in Open Systems & Enterprise - C</li>
-            </ul>
+            
+            <!-- Spear -->
+            <div>
+                <span><strong>Spear (Personal and Career Development Programme)</strong></span>
+                <span> - September 2021 – October 2021</span>
+                <ul>
+                    <li>Developed confident communication and interpersonal skills: delivered presentations, networked with professionals, and demonstrated effective teamwork</li>
+                    <li>Implemented change based on feedback</li>
+                    <li>Demonstrated reliability and organisational skills over the six-week programme</li>
+                </ul>
+            </div>
+
+            <!-- College -->
+            <div>
+                <span><strong>Leeds City College - Printworks Campus</strong></span>
+                <span> - September 2018 – June 2020</span>
+                <ul>
+                    <li>GCSE English Language - 5</li>
+                    <li>BTEC National Extended Certificate in Computing - Merit</li>
+                    <li>BTEC National Diploma in Computing - Merit, Pass</li>
+                </ul>
+            </div>
+            
+            <!-- High School -->
+            <div>
+                <span><strong>Leeds West Academy</strong></span>
+                <span> - September 2013 – June 2018</span>
+                <p>GCSEs in</p>
+                <ul style="padding:0px;">
+                    <li>Combined Science - 4, 3</li>
+                    <li>Computer Science - 3</li>
+                    <li>English Language - 2</li>
+                    <li>English Literature - 2</li>
+                    <li>Geography - 3</li>
+                    <li>Information and Creative Technology - P3</li>
+                    <li>Information & Cash in (Linear) - B</li>
+                    <li>Mathematics - 4</li>
+                    <li>IT User Skills in Open Systems & Enterprise - C</li>
+                </ul>
+            </div>
+
+            <hr>
         </div>
+
         <hr>
 
+
         <!-- Hobbies and Interests -->
-        <div style="padding-left:16px;width:800px">
+        <div>
             <h3>INTERESTS, HOBBIES AND SKILLS</h3>
             <ul>
                 <li>I enjoy watching YouTube videos about technology and gaming</li>
@@ -139,5 +121,14 @@
                 <li>Technical skills: Excel, Word, PowerPoint, Visual Studio (basic)</li>
             </ul>
         </div>
+
+        <br>
+        
+        <!-- Footer of the page -->
+        <footer>
+            <div>
+                <Span> <img src="images/vscode.png" width="14px" height="15px"> Created in VS Code</Span>
+            </div>
+        </footer>
     </body>
 </html>
