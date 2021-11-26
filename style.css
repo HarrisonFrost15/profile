@@ -14,7 +14,7 @@ p{font-size:15px;}
 ul{margin:1em; font-size:15px;}
 
 /* Changes the style and postion of the footer */
-footer{bottom:0; width:device-width; background-color:#333; color: white; text-align: center; padding:0.05em}
+footer{position:sticky; width:device-width; background-color:#333; color:white; text-align:center; padding:0.05em;}
 
 /* Used for making text italic */
 .italic{font-style:italic;}
