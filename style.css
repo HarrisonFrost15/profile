@@ -11,21 +11,25 @@ body{
 header{
     margin:1em;
     padding:1em;
-    background-color:dodgerblue;
-    border-radius:5px;
+    background-image:linear-gradient(to bottom right,#389dff,#1e90ff,#0483ff);
+    box-shadow: 5px 5px 8px #888888;
+    border-radius:10px;
     text-align:center;
 }
 nav{
     margin:1em;
     padding:1em;
-    background-color:dodgerblue;
-    border-radius:5px;
+    background-image:linear-gradient(to bottom right,#389dff,#1e90ff,#0483ff);
+    box-shadow: 5px 5px 8px #888888;
+    border-radius:10px;
     text-align:center;
-    justify-content:space-between;
+    position:sticky;
 }
 nav a{
+    margin-top:0;
     text-decoration:none;
     color:black;
+    padding: 14px 16px;
 }
 nav a:hover{
     text-decoration:none;
@@ -38,15 +42,19 @@ section:target{
     display:block;
 }
 article{
-    margin:1em;
-    padding:1em;
-    background-color:dodgerblue;
-    border-radius:5px;
+    margin:2em;
+    margin-left:10%;
+    margin-right:10%;
+    padding:2em;
+    background-image:linear-gradient(to bottom right,#389dff,#1e90ff,#0483ff);
+    box-shadow: 5px 5px 8px #888888;
+    border-radius:10px;
 }
 footer{
     margin:1em;
     padding:1em;
-    background-color:dodgerblue;
-    border-radius:5px;
+    background-image:linear-gradient(to bottom right,#389dff,#1e90ff,#0483ff);
+    box-shadow: 5px 5px 8px #888888;
+    border-radius:10px;
     text-align:center;
 }
