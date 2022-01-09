@@ -1,38 +1,52 @@
-/* Used to change everything */
-*{box-sizing:border-box; margin:0px; padding:0px; width:device-width;}
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-color:white;
+    font-family:'Roboto',sans-serif;
+    font-size:20px;
+}
 
-/* Changes the content of the website e.g background-color */
-body{background-color:silver;}
-
-/* Changes all the div elements */
-div{margin:1em;}
-
-/* Changes all the paragraph elements */
-p{font-size:15px;}
-
-/* Changes all the paragraph elements */
-ul{margin:1em; font-size:15px;}
-
-/* Changes the style and postion of the footer */
-footer{position:sticky; width:device-width; background-color:#333; color:white; text-align:center; padding:0.05em;}
-
-/* Used for making text italic */
-.italic{font-style:italic;}
-
-/* Used for making text bold */
-.bold{font-style:bold;}
-
-/* Background colour of the navigation bar */
-.topnav{overflow:hidden; background-color:#333;}
-            
-/* Font color and style of the navigation bar*/
-.topnav a{float:left; color:#f2f2f2; text-align:center; padding:14px 16px; text-decoration:none; font-size:17px;}
-
-/* Shows what happens when you hover over a page of the navigation bar */
-.topnav a:hover{background-color:#ddd; color:black;}
-            
-/* Shows what page you are on of the navigation bar*/
-.topnav a.active{background-color:#04AA6D; color:white;}
-
-/* Makes sure that the navigation bar has no space before it */
-#nav-bar{position:sticky; top:0; margin:0px; width:device-width;}
+header{
+    margin:1em;
+    padding:1em;
+    background-color:dodgerblue;
+    border-radius:5px;
+    text-align:center;
+}
+nav{
+    margin:1em;
+    padding:1em;
+    background-color:dodgerblue;
+    border-radius:5px;
+    text-align:center;
+    justify-content:space-between;
+}
+nav a{
+    text-decoration:none;
+    color:black;
+}
+nav a:hover{
+    text-decoration:none;
+    color:white;
+}
+section{
+    display:none;
+}
+section:target{
+    display:block;
+}
+article{
+    margin:1em;
+    padding:1em;
+    background-color:dodgerblue;
+    border-radius:5px;
+}
+footer{
+    margin:1em;
+    padding:1em;
+    background-color:dodgerblue;
+    border-radius:5px;
+    text-align:center;
+}
